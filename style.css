@@ -283,6 +283,26 @@ img {
   border-radius: 6px;
 }
 
+/* Documentation Preview Image Section */
+.docs-preview {
+  background-color: #f8fafc;
+  padding: 60px 0;
+}
+
+.docs-image-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+.docs-preview-image {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
 /* 
   Documentation Preview Section
 */
