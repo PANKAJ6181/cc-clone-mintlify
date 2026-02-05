@@ -293,6 +293,56 @@ img {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
 
+/* trusted icon */
+.trusted-by {
+  padding: 80px 40px;
+  background-color: #f8fafc;
+  text-align: center;
+}
+
+.trusted-text {
+  font-size: 24px;
+  font-weight: 600;
+  color: #0f172a;
+  max-width: 600px;
+  margin: 0 auto 24px;
+}
+
+.trusted-cta {
+  margin-bottom: 48px;
+}
+
+.logo-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 columns */
+  grid-template-rows: repeat(2, auto); /* 2 rows */
+  align-items: center;
+  justify-content: center;
+  gap: 48px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.company-logo {
+  height: 50px;
+  opacity: 0.6;
+  filter: grayscale(10000%);
+  transition:
+    opacity 0.2s,
+    filter 0.2s;
+}
+
+.company-logo:hover {
+  opacity: 1;
+  filter: grayscale(0%);
+}
+
+.company-logo img {
+  height: 100%;
+  width: auto;
+  object-fit: contain;
+}
+
 /* 
    Footer Section
     */
