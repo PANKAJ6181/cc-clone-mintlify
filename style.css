@@ -117,7 +117,7 @@ img {
   border: 1px solid #e2e8f0;
 }
 
-/*  Navigation Bar */
+/*  Nav Bar */
 .navbar {
   position: sticky;
   top: 0;
@@ -176,7 +176,7 @@ img {
   gap: 24px;
 }
 
-/*  Announcement Banner  */
+/*   Banner  */
 .announcement-banner {
   background: linear-gradient(135deg, #0f766e 0%, #0d9373 100%);
   color: #ffffff;
@@ -197,9 +197,7 @@ img {
   font-weight: 600;
 }
 
-/* 
-  Hero Section
-    */
+/*  Hero Section. */
 .hero {
   position: relative;
   min-height: 520px;
@@ -208,10 +206,9 @@ img {
   align-items: center;
   text-align: center;
 
-  overflow: hidden; /* ✅ Prevent overlap */
+  overflow: hidden;
 }
 
-/* Background Image */
 .hero-bg-img {
   position: absolute;
   top: 0;
@@ -222,10 +219,9 @@ img {
 
   object-fit: cover;
 
-  z-index: -1; /* ✅ Send behind everything */
+  z-index: -1;
 }
 
-/* Content */
 .hero-content {
   position: relative;
   z-index: 2;
@@ -234,7 +230,6 @@ img {
   padding: 100px 20px;
 }
 
-/* Title */
 .hero-title {
   font-size: 56px;
   font-weight: 700;
@@ -248,7 +243,6 @@ img {
   margin-bottom: 32px;
 }
 
-/* CTA */
 .hero-cta {
   display: flex;
   max-width: 420px;
@@ -293,7 +287,6 @@ img {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
 
-/* trusted icon */
 .trusted-by {
   padding: 80px 40px;
   background-color: #f8fafc;
@@ -343,9 +336,7 @@ img {
   object-fit: contain;
 }
 
-/* 
-   UI Preview Section
-    */
+/*  Intelligent Assistant  and  UI Preview Section */
 .ui-preview {
   padding: 100px 40px;
   background-color: #f8fafc;
@@ -467,9 +458,7 @@ img {
   margin-top: 20px;
 }
 
-/* 
-   7. Enterprise Features Section
-    */
+/*  Enterprise Features Section and Customer story  */
 .enterprise-features {
   padding: 100px 40px;
   background-color: #ffffff;
@@ -490,17 +479,6 @@ img {
   border: 1px solid #e2e8f0;
 }
 
-.enterprise-icon {
-  width: 56px;
-  height: 56px;
-  background-color: #f0fdf4;
-  border-radius: 12px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 20px;
-}
-
 .enterprise-card h3 {
   font-size: 20px;
   font-weight: 600;
@@ -514,6 +492,63 @@ img {
   line-height: 1.7;
 }
 
+.story {
+  padding: 60px;
+  background: #f8fafc;
+}
+
+.story-card {
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.story-card img {
+  width: 100%;
+  display: block;
+  border-radius: 20px;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2));
+}
+
+.story-content {
+  position: absolute;
+  top: 50px;
+  left: 60px;
+  color: white;
+  max-width: 600px;
+}
+
+.label {
+  font-size: 12px;
+  letter-spacing: 2px;
+  opacity: 0.8;
+}
+
+.story-content h2 {
+  font-size: 40px;
+  margin: 20px 0;
+}
+
+.link {
+  margin-bottom: 40px;
+  cursor: pointer;
+}
+
+.stats {
+  display: flex;
+  gap: 60px;
+}
+
+.stats h3 {
+  font-size: 32px;
+  margin-bottom: 5px;
+}
+
 .enterprise-logos {
   display: flex;
   align-items: center;
@@ -523,7 +558,7 @@ img {
 }
 
 .enterprise-logos .company-logo {
-  height: 40px;
+  height: 80px;
   opacity: 0.7;
   filter: grayscale(100%);
   transition:
@@ -542,9 +577,7 @@ img {
   color: #94a3b8;
 }
 
-/* 
-   Case Studies Section
-    */
+/* Case Studies and customer section */
 .case-studies {
   padding: 100px 40px;
   background-color: #f8fafc;
@@ -625,9 +658,7 @@ img {
   color: #0a7a5f;
 }
 
-/* 
-   Final Call-To-Action Section
-    */
+/* Demo section */
 .final-cta {
   padding: 100px 40px;
   background-color: #ffffff;
@@ -695,9 +726,7 @@ img {
   color: #0a7a5f;
 }
 
-/* 
-   Footer Section
-    */
+/*  Footer Section */
 .footer {
   background-color: #ffffff;
   color: #000000;
