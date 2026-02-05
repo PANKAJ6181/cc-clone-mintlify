@@ -47,7 +47,7 @@ project-folder/
 1. Clone the repository:
 
    ```bash
-   git clone [<your-repo-url>](https://github.com/PANKAJ6181/cc-clone-mintlify)
+   git clone https://github.com/PANKAJ6181/cc-clone-mintlify
    ```
 
 2. Open the folder.
